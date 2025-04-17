@@ -13,4 +13,4 @@ jobs:
       - name: Build Java packagee 
         run: mvn clean install -f Javarepo1/pom.xml
       - name: SonarCloud Scan
-        run: mvn sonar:sonar -f Javarepo1/pom.xml  -Dsonar.projectKey=git-yogeshsharma87 -Dsonar.organization=Yogesh -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=71b0f5014cb41cf9b805968f7a0630a778f362fc
+        run: mvn sonar:sonar -f Javarepo1/pom.xml  -Dsonar.projectKey=git-yogeshsharma87 -Dsonar.organization=Yogesh -Dsonar.branch.name=main -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=71b0f5014cb41cf9b805968f7a0630a778f362fc
