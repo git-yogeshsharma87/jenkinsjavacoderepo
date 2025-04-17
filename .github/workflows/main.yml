@@ -10,3 +10,5 @@ jobs:
       steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+      - name: Build Java packagee 
+        run: mvn cleeaen install -f Javaarepo1/pom.xml
