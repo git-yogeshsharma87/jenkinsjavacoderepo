@@ -2,9 +2,9 @@ name: Java CI with Maven
 on:
   push: 
     branches: [main]
-
-
-  jobs:
+    
+    
+jobs:
     builds:
       runs-on: ubuntu-latest
       steps:
